@@ -21,4 +21,5 @@ from api import urls
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('api.urls')),
+    path('silk/',include('silk.urls', namespace='silk')),
 ]
