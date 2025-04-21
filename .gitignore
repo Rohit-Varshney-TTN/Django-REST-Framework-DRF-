@@ -1,1 +1,23 @@
 api.http
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# SQLite database
+db.sqlite3
+
+# Virtual environment
+venv/
+
+# VS Code settings
+.vscode/
+
+# IDE folders
+.idea/
+
+# Django media and static files (optional)
+media/
+staticfiles/
